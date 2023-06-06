@@ -15,8 +15,8 @@ if(isset($_POST["send"])){
     $mail->SMTPSecure='ssl';
     $mail->Port=465;
 
-    $mail->Username='notesshareofficial@gmail.com';
-    $mail->Password='kisfvaugudixntbl';
+    $mail->Username='*set your email*';
+    $mail->Password='*set your password*';
 
     $mail->setFrom('Notesshareofficial@gmail.com');
 
