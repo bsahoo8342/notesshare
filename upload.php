@@ -42,8 +42,8 @@ if(isset($_POST["upload"])){
     $mail->SMTPSecure='ssl';
     $mail->Port=465;
 
-    $mail->Username='notesshareofficial@gmail.com';
-    $mail->Password='kisfvaugudixntbl';
+    $mail->Username='*';
+    $mail->Password='*';
 
     $mail->setFrom('Notesshareofficial@gmail.com');
 
